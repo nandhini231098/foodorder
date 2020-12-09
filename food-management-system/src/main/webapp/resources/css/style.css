@@ -1,0 +1,107 @@
+.logincontainer {
+  padding: 16px;
+}
+td{
+color:orange;
+font-size:20px;
+font-weight:bold;
+}
+.login{
+height:350px;
+width:400px;
+ border: 4px solid black; 
+ background-color:black;
+ margin:100px;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 15px 0;
+  display: inline-block;
+  border: 2px solid black;
+  box-sizing: border-box;
+  color:red;
+}
+.welcome{
+border:5px solid red;
+width:350;
+height:300;
+background-color: black;
+ padding: 20px 30px;
+ margin:150px;
+}
+.buttons{
+ background-color: orange;
+color: red;
+margin:25px; 
+  padding: 25px 36px;
+display: inline-block;
+  font-size: 25px;
+  height:80;
+  width:200;
+  border:none;
+}
+.button1{
+font-size: 20px;
+ height:60;
+ width:200;
+ border:none;
+ text-align:center;
+padding: 15px 26px;
+margin:15px 60px ;
+background-color:orange;
+}
+
+
+
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  margin:15px 0;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+.topnav a:hover {
+  background-color: orange;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.topnav-right {
+  float: right;
+  color:white;
+}
+
+.auth{
+font-size:25px;
+color:red;
+}
+
+.header{
+   padding: 4px;
+  text-align: center;
+  background:black;
+  color: white;
+  font-size: 25px;
+}
+
+.logout{
+font-size:20px;
+}

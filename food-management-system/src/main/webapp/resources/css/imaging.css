@@ -1,0 +1,29 @@
+
+
+.topnav-center { 
+  float: center;
+  margin:2px;
+} 
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+ text-align:center;  
+  color:white;
+  font-size:20px;
+}
+
+.topnav-right {
+  float: right;
+  color:white;
+}
+
+.footers {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   height:5%;
+}
